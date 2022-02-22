@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: burlywood;
+    height: 80px;
+    text-align: center;
+    font-size: 150%;
+    padding-top: 30px;
+    margin: 0px;
+    display: block;
+}
+a{
+text-decoration: none;
+display: inline-block;
+margin-left: 50px;
+}
+div{
+width: 40%;
+display: inline-block;
+}
+.three{
+    display: inline-block;
+    float:right;
+    margin-left: 2%;
+    width: 58%;
+}
+a:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: ease;
+    border-radius: 25%;
+    transform:rotate(300deg);
+    /*transform:scale(200%);*/
+}
+
+nav a.active{
+    color: black;
+    cursor: default;
+    background-color: blue;
+}
+
+
